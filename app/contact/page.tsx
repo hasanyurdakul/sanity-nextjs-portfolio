@@ -11,6 +11,9 @@ import { Player } from "@lottiefiles/react-lottie-player";
 const page = () => {
   return (
     <div className="mt-[6.5rem] prose prose-lg mx-auto px-1 dark:prose-invert">
+      <head>
+        <title>Hasan Yurdakul | Contact</title>
+      </head>
       <div>
         <h1 className="">Let's get in touch 📧</h1>
 

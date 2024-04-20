@@ -28,6 +28,9 @@ export default async function ProjectPage({
 
   return (
     <div className="mt-[6.5rem]">
+      <head>
+        <title>{data.title}</title>
+      </head>
       <h1>
         <span className="block text-base text-center text-primary font-semibold tracking-wide uppercase">
           Project

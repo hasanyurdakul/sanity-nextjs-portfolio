@@ -25,6 +25,9 @@ const page = async () => {
   console.log(data);
   return (
     <div className="mt-[6.5rem]">
+      <head>
+        <title>Hasan Yurdakul | Blog</title>
+      </head>
       <div className="  block text-base text-center text-primary font-semibold tracking-wide uppercase  ">
         <h2>BLOG POSTS </h2>
       </div>

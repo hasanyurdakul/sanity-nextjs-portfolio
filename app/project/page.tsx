@@ -29,6 +29,9 @@ const page = async () => {
 
   return (
     <div className="mt-[6.5rem] ">
+      <head>
+        <title>Hasan Yurdakul | Projects</title>
+      </head>
       <div className="  block text-base text-center text-primary font-semibold tracking-wide uppercase  ">
         <h2>Projects </h2>
       </div>

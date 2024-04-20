@@ -25,6 +25,9 @@ export default async function BlogArticlePage({
   const data: blogPost = await getData(params.slug);
   return (
     <div className="mt-[5.5rem]">
+      <head>
+        <title>{data.title}</title>
+      </head>
       <h1>
         <span className="block text-base text-center text-primary font-semibold tracking-wide uppercase">
           Blog

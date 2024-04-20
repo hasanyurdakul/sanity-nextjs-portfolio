@@ -19,6 +19,7 @@ import {
   SiTypescript,
 } from "react-icons/si";
 import ProfileCard from "./components/ProfileCard";
+import Head from "next/head";
 export default async function Home() {
   return (
     <div className="mt-[6.5rem] prose prose-lg mx-auto px-1 prose-li: dark:prose-invert">
