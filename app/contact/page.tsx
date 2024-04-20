@@ -1,4 +1,7 @@
+/* eslint-disable react/no-unescaped-entities */
+
 "use client";
+
 import Link from "next/link";
 import React from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";

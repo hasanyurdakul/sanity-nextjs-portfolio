@@ -1,4 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable react/no-unescaped-entities */
+
 import {
   SiChakraui,
   SiCsharp,

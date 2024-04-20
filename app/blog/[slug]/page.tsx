@@ -42,7 +42,7 @@ export default async function BlogArticlePage({
         priority
       />
       <div className="mt-8 prose prose-lg dark:prose-invert prose-li:marker:text-primary prose-a:text-primary  ">
-        <p className="italic text-sm text-primary">{data.smallDescription}</p>
+        <p className="italic text-primary">{data.smallDescription}</p>
 
         <PortableText value={data.content}></PortableText>
       </div>

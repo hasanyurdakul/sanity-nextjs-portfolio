@@ -10,6 +10,7 @@ export interface blogPost {
   title: string;
   content: any;
   titleImage: any;
+  smallDescription: any;
 }
 
 export interface simpleProjectCard {
