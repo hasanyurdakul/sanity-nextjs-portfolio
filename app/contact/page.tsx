@@ -20,7 +20,7 @@ const page = () => {
         <h2 className=" ">You can reach me via my socials</h2>
         <div className="grid grid-flow-col items-center  ">
           <div className="flex flex-col gap-5">
-            <Link href={""} className="flex items-center gap-2 no-underline">
+            <Link href={"https://www.linkedin.com/in/hasanyurdakul/"} className="flex items-center gap-2 no-underline">
               <FaLinkedin className="size-12" />
               <p className="font-bold text-xl">LinkedIn</p>
             </Link>
@@ -30,13 +30,6 @@ const page = () => {
             >
               <FaGithub className="size-12" />
               <p className="font-bold text-xl">Github</p>
-            </Link>
-            <Link
-              href={"https://github.com/hasanyurdakul"}
-              className="flex items-center gap-2 no-underline"
-            >
-              <FaTwitter className="size-12" />
-              <p className="font-bold text-xl">Twitter</p>
             </Link>
             <Link
               href={"mailto:hhasanyurdakul@gmail.com"}
